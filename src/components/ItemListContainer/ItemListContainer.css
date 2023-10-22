@@ -1,0 +1,31 @@
+.banner-container {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(banner.webp);
+}
+.banner-container h1 {
+  margin: 0;
+  color: antiquewhite;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.4);
+  font-size: 62px;
+  font-weight: bold;
+}
+.banner-container p {
+  font-size: 30px;
+  color: antiquewhite;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.4);
+}
+.banner-container h2 {
+  font-size: xxx-large;
+  font-weight: 900;
+  color: blueviolet;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.4);
+}
